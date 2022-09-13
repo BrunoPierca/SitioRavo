@@ -16,7 +16,7 @@ const Process = () => {
 					{process.map((item, idx) => (
 						<div className='col-lg-4' key={idx}>
 							<div className={`item ${idx !== process.length - 1 ? "md-mb50" : ""}`}>
-								<div className='step d-flex mb-30'>
+								<div className='step mb-30'>
 									<div className='numb'>{item.numb}</div>
 									<i className={`${item.icon} icon bg-gray`}></i>
 									{/* <span className={`icon ${item.icon} bg-gray`}></span> */}
