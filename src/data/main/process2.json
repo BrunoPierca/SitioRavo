@@ -1,0 +1,20 @@
+[
+  {
+    "numb": "01",
+    "icon": "pe-7s-display2",
+    "title": "Educar",
+    "details": "Cras en diam ips elementum pretium hendrerit ultricies."
+  },
+  {
+    "numb": "02",
+    "icon": "far fa-heart",
+    "title": "Ayudar",
+    "details": "Cras en diam ips elementum pretium hendrerit ultricies."
+  },
+  {
+    "numb": "03",
+    "icon": "fas fa-user-friends",
+    "title": "Fomentar",
+    "details": "Cras en diam ips elementum pretium hendrerit ultricies."
+  }
+]
