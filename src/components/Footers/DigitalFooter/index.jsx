@@ -37,8 +37,8 @@ const Footer = ({ footerClass, type }) => {
 						<div className='clumn'>
 							<h6 className='title fw-700 mb-30'>Contáctanos</h6>
 							<ul className='address rest'>
-								<li className='adrs mb-15'>{footerData.address}</li>
-								<li className='eml underline mb-15'>
+								<li className='adrs mb-15 fw-300'>Aquí va la dirección de oficina.</li>
+								<li className='eml underline fw-300 mb-15'>
 									<a href='mailto:fuchsger@gmail.com' target='blank'>fuchsger@gmail.com</a>
 								</li>
 								<li className='tel'>
@@ -48,7 +48,7 @@ const Footer = ({ footerClass, type }) => {
 										}`}
 									>
 										{/* {footerData.phone} */}
-										<a href="tel:+5534667092">+55-3466-7092</a>
+										<a className="fw-400" href="tel:+5534667092">+55-3466-7092</a>
 									</h6>
 								</li>
 							</ul>
