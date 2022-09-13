@@ -2,7 +2,7 @@ import process from "../../../data/main/process2.json";
 
 const Process = () => {
 	return (
-		<section className='process-simp section-padding bg-gray position-re pb-0'>
+		<section className='process-simp section-padding bg-gray position-re pb-90'>
 			<div className='simple-head md-mb10 mb-80 text-center'>
 				<div>
 					<h6 className='sub-head radius mb-20'>
@@ -16,13 +16,13 @@ const Process = () => {
 					{process.map((item, idx) => (
 						<div className='col-lg-4' key={idx}>
 							<div className={`item ${idx !== process.length - 1 ? "md-mb50" : ""}`}>
-								<div className='step mb-30'>
+								<div className='step d-flex mb-30'>
 									<div className='numb'>{item.numb}</div>
 									<i className={`${item.icon} icon bg-gray`}></i>
 									{/* <span className={`icon ${item.icon} bg-gray`}></span> */}
 								</div>
 								<h6 className='mb-10 fw-700'>{item.title}</h6>
-								<p>{item.details}</p>
+								<p className='font__secondary'>{item.details}</p>
 							</div>
 						</div>
 					))}

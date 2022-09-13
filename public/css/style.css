@@ -5420,14 +5420,14 @@ header.simple-header .path a:after {
   height: 160px;
   border-radius: 50%;
   text-align: center;
-  background: -webkit-gradient(linear, right top, left top, from(#130cb5), to(#b554ef));
+  /* background: -webkit-gradient(linear, right top, left top, from(#130cb5), to(#b554ef));
   background: -webkit-linear-gradient(right, #130cb5 0%, #b554ef 100%);
   background: -o-linear-gradient(right, #130cb5 0%, #b554ef 100%);
-  background: linear-gradient(270deg, #130cb5 0%, #b554ef 100%);
+  background: linear-gradient(270deg, #130cb5 0%, #b554ef 100%); */
   z-index: 3;
 }
 
-.intro-img-shape .exp:after {
+/* .intro-img-shape .exp:after {
   content: '';
   position: absolute;
   top: -10px;
@@ -5441,7 +5441,7 @@ header.simple-header .path a:after {
   background: linear-gradient(270deg, #130cb5 0%, #b554ef 100%);
   opacity: .2;
   z-index: -1;
-}
+} */
 
 .intro-img-shape .exp span {
   font-size: 13px;
@@ -7324,34 +7324,39 @@ header.simple-header .path a:after {
 }
 
 .process-simp .item .step .numb {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  border-radius: 50%;
-  background: #5843bc;
-  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
-  color: #fff;
-  position: absolute;
-  top: 0;
-  left: -20px;
-  z-index: 3;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	color: black;
+	position: absolute;
+	top: 0;
+	left: -20px;
+	z-index: 3;
+	background: conic-gradient(
+		#e70132 0deg 60deg,
+		#ff8a15 60deg 120deg,
+		#ffc010 120deg 180deg,
+		#44c150 180deg 240deg,
+		#3782ef 240deg 300deg,
+		#af6ae5 300deg 360deg
+	);
 }
 
 .process-simp .item .step .numb:after {
-  content: '';
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  border-radius: 50%;
-  background: #5843bc;
-  opacity: .3;
-  z-index: -1;
+	margin: 18%;
+	content: "";
+	position: absolute;
+	background-color: white;
+	size: 80%;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	border-radius: 50%;
+	z-index: -1;
 }
-
 /* ====================== [ End services ] ====================== */
 /* ====================== [ Start Pricing ] ====================== */
 .price .item {

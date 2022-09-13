@@ -13,11 +13,12 @@ class MyDocument extends Document {
 			<Html lang='en'>
 				<Head>
 					<meta httpEquiv='X-UA-Compatible' content='IE=edge' />
-					<meta name='keywords' content='React Nextjs Template Ravo Multi-Purpose themeforest' />
-					<meta name='description' content='Ravo - Multi-Purpose React.js Next.js Template' />
-					<meta name='author' content='' />
+					<meta name='keywords' content='3mpathy' />
+					<meta name='description' content='3mpathy' />
+					<meta name='author' content='CC' />
 					<link rel='shortcut icon' href='/img/favicon.ico' />
-					<link href='http://fonts.cdnfonts.com/css/gotham-rounded' rel='stylesheet' />
+					<link href='https://fonts.cdnfonts.com/css/gotham-rounded' rel='stylesheet' />
+					<link href='https://fonts.cdnfonts.com/css/gotham' rel='stylesheet'></link>
 				</Head>
 
 				<body>

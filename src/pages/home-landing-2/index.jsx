@@ -37,7 +37,6 @@ const HomeLanding2 = () => {
 			<Head>
 				<title>3MPATHY</title>
 				<link rel='shortcut icon' href='/img/favicon.ico' />
-				<link href='http://fonts.cdnfonts.com/css/gotham-rounded' rel='stylesheet' />
 			</Head>
 
 			<MainLightLayout defaultTheme={"dark"} defaultLogoTheme='dark'>
@@ -45,11 +44,9 @@ const HomeLanding2 = () => {
 				<FixedSearch />
 				<Header />
 				<Testimonials />
-
 				<Process />
 				<About />
-
-				<Footer footerClass='position-re pb-40  ' />
+				<Footer footerClass='position-re pb-40' />
 			</MainLightLayout>
 		</>
 	);

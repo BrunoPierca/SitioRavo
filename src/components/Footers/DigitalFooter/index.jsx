@@ -11,13 +11,12 @@ const Footer = ({ footerClass, type }) => {
 						<div className='clumn'>
 							<div className='logo mb-30'>
 								<a href='landing-preview.html'>
-									<img src='img/logo-dark.png' alt='' />
+									<img src='img/3MPATHY_LOGO.png' style={{width: '130%'}} alt='' />
 								</a>
 							</div>
 							<div className='text'>
-								<p>
-									Morbi sagittis hendrt nulla simply text of the printing and has beenthe industry’s en diam
-									pretium.
+								<p className="fw-300">
+									Somos una consultora que ofrece a las empresas la posibilidad de tener un propósito firme y contundente en materia de Diversidad & inclusión.
 								</p>
 							</div>
 							<div className='social circle-bord mt-30'>
@@ -39,11 +38,11 @@ const Footer = ({ footerClass, type }) => {
 					</div>
 					<div className='col-lg-4 offset-lg-1'>
 						<div className='clumn'>
-							<h6 className='title fw-700 mb-30'>Contact Us</h6>
+							<h6 className='title fw-700 mb-30'>Contáctanos</h6>
 							<ul className='address rest'>
 								<li className='adrs mb-15'>{footerData.address}</li>
 								<li className='eml underline mb-15'>
-									<a href='#0'>{footerData.email}</a>
+									<a href='mailto:fuchsger@gmail.com' target='blank'>fuchsger@gmail.com</a>
 								</li>
 								<li className='tel'>
 									<h6
@@ -51,7 +50,8 @@ const Footer = ({ footerClass, type }) => {
 											type == "purple-light" ? "gr-blue2-text" : ""
 										}`}
 									>
-										{footerData.phone}
+										{/* {footerData.phone} */}
+										<a href="tel:+5534667092">+55-3466-7092</a>
 									</h6>
 								</li>
 							</ul>

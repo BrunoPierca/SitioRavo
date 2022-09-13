@@ -37,7 +37,7 @@ const Testimonials = () => {
 						color: "blue",
 						WebkitTextFillColor: "transparent",
 						WebkitTextStrokeWidth: 1,
-						WebkitTextStrokeColor: "blue",
+						WebkitTextStrokeColor: "lightblue",
 						fontSize: "95px !important",
 					}}
 				>
@@ -49,7 +49,7 @@ const Testimonials = () => {
 						color: "blue",
 						WebkitTextFillColor: "transparent",
 						WebkitTextStrokeWidth: 1,
-						WebkitTextStrokeColor: "blue",
+						WebkitTextStrokeColor: "lightblue",
 						fontSize: "95px !important",
 					}}
 				>
@@ -159,7 +159,7 @@ const Testimonials = () => {
 													<span className='quote-icon'>
 														<img src='img/icons/quote.svg' alt='' />
 													</span>
-													<p>{testimonial.comment}</p>
+													<p className='font__secondary'>{testimonial.comment}</p>
 													<h6>{testimonial.author}</h6>
 												</div>
 											</div>

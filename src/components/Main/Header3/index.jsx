@@ -41,7 +41,7 @@ const Header = () => {
 									}}
 								/>
 							</h1>
-							<p>
+							<p className='font__secondary'>
 								Somos una consultora que ofrece a las empresas la posibilidad de tener un propósito firme y
 								contundente en materia de <strong>Diversidad & inclusión.</strong> <br />
 								Ayudamos a crear pilares que apoyen el discurso y se genere negocio.
@@ -56,12 +56,6 @@ const Header = () => {
 										</a>
 									</Link>
 								</div>
-								{/* <div className='valign'>
-									<a href='https://youtu.be/AzwC6umvd1s' className='btn vid underline' onClick={openVideo}>
-										<span className='fw-500 fz-13'>View Our Story</span>
-										<i className='fas fa-play fz-12 ml-5'></i>
-									</a>
-								</div> */}
 							</div>
 						</div>
 					</div>

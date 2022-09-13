@@ -1,20 +1,20 @@
 [
   {
-    "numb": "01",
-    "icon": "pe-7s-display2",
+    "numb": "1",
+    "icon": "fas fa-chalkboard-teacher",
     "title": "Educar",
-    "details": "Cras en diam ips elementum pretium hendrerit ultricies."
+    "details": "Para entender que las diferencias no se estereotipan."
   },
   {
-    "numb": "02",
+    "numb": "2",
     "icon": "far fa-heart",
     "title": "Ayudar",
-    "details": "Cras en diam ips elementum pretium hendrerit ultricies."
+    "details": "A transformas las mentes y corazones de la sociedad Mexicana."
   },
   {
-    "numb": "03",
+    "numb": "3",
     "icon": "fas fa-user-friends",
     "title": "Fomentar",
-    "details": "Cras en diam ips elementum pretium hendrerit ultricies."
+    "details": "El respeto para dejar de anular por ser diferente."
   }
 ]
