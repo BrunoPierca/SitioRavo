@@ -10,7 +10,7 @@ class MyDocument extends Document {
 
 	render() {
 		return (
-			<Html lang='en'>
+			<Html lang='es'>
 				<Head>
 					<meta httpEquiv='X-UA-Compatible' content='IE=edge' />
 					<meta name='keywords' content='3mpathy' />

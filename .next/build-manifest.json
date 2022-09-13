@@ -29,6 +29,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/home-landing-2.js"
+    ],
+    "/landing-preview": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/landing-preview.js"
     ]
   },
   "ampFirstPages": []
