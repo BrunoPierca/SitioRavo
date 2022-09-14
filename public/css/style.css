@@ -1789,7 +1789,7 @@ img.left {
 /* ====================== [ Start curve Style ] ====================== */
 .curve-cls {
   position: absolute;
-  width: 110%;
+  width: 100%;
   left: -5%;
   height: 300px;
   pointer-events: none;

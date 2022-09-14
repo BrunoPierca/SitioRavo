@@ -2,7 +2,7 @@ import process from "../../../data/main/process2.json";
 
 const Process = () => {
 	return (
-		<section className='process-simp section-padding bg-gray position-re mt-100 pb-90'>
+		<section className='process-simp section-padding bg-gray position-re pb-90'>
 			<div className='simple-head md-mb10 mb-80 text-center'>
 				<div>
 					<h6 className='sub-head radius mb-20'>
