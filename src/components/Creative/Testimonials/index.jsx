@@ -29,7 +29,7 @@ const Testimonials = () => {
 	}, []);
 
 	return (
-		<section className='testimonials pb-60'>
+		<section className='testimonials pb-100'>
 			<div style={{ display: "flex !important" }}>
 				<h1
 					className='mt-30'

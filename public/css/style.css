@@ -1789,10 +1789,11 @@ img.left {
 /* ====================== [ Start curve Style ] ====================== */
 .curve-cls {
   position: absolute;
-  width: 100%;
+  width: 110%;
   left: -5%;
   height: 300px;
   pointer-events: none;
+  overflow-x: hidden ;
 }
 
 .curve-cls svg {
