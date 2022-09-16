@@ -134,7 +134,7 @@ const About = () => {
 					{/* Div 3 */}
 					<div>
 						<div className='row'>
-							<p>F</p>
+							<p>K</p>
 							<div className='col-lg-6 valign'>
 								<div className='content'>
 									<a className='butn butn-md gr-orange1-bg text-light mt-10 radius-30'>
@@ -145,7 +145,7 @@ const About = () => {
 							</div>
 						</div>
 						<div className='row'>
-							<p>G</p>
+							<p>L</p>
 
 							<div className='col-lg-6 valign'>
 								<div className='content'>
@@ -157,7 +157,7 @@ const About = () => {
 							</div>
 						</div>
 						<div className='row'>
-							<p>H</p>
+							<p>M</p>
 
 							<div className='col-lg-6 valign'>
 								<div className='content'>
@@ -169,7 +169,7 @@ const About = () => {
 							</div>
 						</div>
 						<div className='row'>
-							<p>I</p>
+							<p>Ñ</p>
 
 							<div className='col-lg-6 valign'>
 								<div className='content'>
@@ -181,7 +181,7 @@ const About = () => {
 							</div>
 						</div>
 						<div className='row'>
-							<p>J</p>
+							<p>O</p>
 
 							<div className='col-lg-6 valign'>
 								<div className='content'>
