@@ -2,7 +2,7 @@ import React from "react";
 import { Image } from "next";
 import MainLightLayout from "../../layouts/main-light";
 
-const About = () => {
+const buttonViewer = () => {
 	return (
 		<MainLightLayout defaultTheme={"dark"} defaultLogoTheme='dark'>
 			<section className='section-padding gr-purple-light-bg to-up position-re bord-thin-top'>
@@ -200,4 +200,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default buttonViewer;
