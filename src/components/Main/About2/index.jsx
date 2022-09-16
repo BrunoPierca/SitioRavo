@@ -49,7 +49,7 @@ const About = () => {
 							</div>
 							<div className='exp'>
 								<div className='full-width'>
-									<img src='img/3MPATHY_LOGO (logo only).png' alt='3mpathy logo' />
+									<img src='img/logo.png' alt='3mpathy logo' />
 								</div>
 							</div>
 						</div>
@@ -65,7 +65,7 @@ const About = () => {
 								Queremos vernos en la necesidad de reinventar nuestra compañía en 15 años, como el resultado de haber logrado una sociedad incluyente.
 							</strong>
 							<br />
-							<a className='butn butn-md gr-purple2-bg text-light mt-30 radius-30'>
+							<a className='butn butn-md gr-orange1-bg text-light mt-30 radius-30'>
 											<span className='text slide-up fw-200'>Sigue conociendonos</span>
 											<span className='text slide-down fw-400'>Empecemos</span>
 										</a>

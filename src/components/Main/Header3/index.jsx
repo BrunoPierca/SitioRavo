@@ -85,12 +85,13 @@ const Header = () => {
 							</clipPath>
 						</defs>
 						<image
-							x='0'
-							y='0'
-							width='100%'
-							height='100%'
+							style={{position:"relative"}}
+							x='35'
+							y='45'
+							width='80%'
+							height='80%'
 							clipPath='url(#shape)'
-							xlinkHref='img/background/s1.jpg'
+							xlinkHref='img/header2.jpg'
 							preserveAspectRatio='none'
 						></image>
 					</svg>
@@ -107,8 +108,8 @@ const Header = () => {
 					>
 						<defs>
 							<linearGradient id='gradient1' x1='0%' y1='0%' x2='0%' y2='100%'>
-								<stop offset='1000%' style={{ stopColor: "#efebfd" }}></stop>
-								<stop offset='0%' style={{ stopColor: "transparent" }}></stop>
+								<stop offset='1000%' style={{ stopColor: "#D0D0D0" }}></stop>
+								<stop offset='0%' style={{ stopColor: "#DADADA"  }}></stop>
 							</linearGradient>
 						</defs>
 						<path fill='url(#gradient1)' d=''>

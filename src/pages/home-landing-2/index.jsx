@@ -12,7 +12,7 @@ import Testimonials from "../../components/Creative/Testimonials";
 import About from "../../components/Main/About2";
 import Footer from "../../components/Footers/DigitalFooter";
 
-const HomeLanding2 = () => {
+const HomeLanding = () => {
 	useEffect(() => {
 		document.body.classList.add("land-demo2");
 
@@ -52,4 +52,4 @@ const HomeLanding2 = () => {
 	);
 };
 
-export default HomeLanding2;
+export default HomeLanding;
