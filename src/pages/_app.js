@@ -2,7 +2,6 @@
 import React from "react";
 import Script from "next/script";
 import Head from "next/head";
-import ProgressScroll from "../components/Progress-Scroll";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
@@ -14,7 +13,6 @@ function MyApp({ Component, pageProps }) {
 			</Head>
 
 			<Component {...pageProps} />
-			<ProgressScroll />
 
 			<Script strategy='beforeInteractive' src='/js/bootstrap.bundle.min.js'></Script>
 			<Script strategy='beforeInteractive' src='/js/wow.min.js'></Script>
