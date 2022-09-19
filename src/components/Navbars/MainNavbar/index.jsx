@@ -49,16 +49,14 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
 
 				<div className='collapse navbar-collapse' id='navbarSupportedContent'>
 					<ul className='navbar-nav'>
-						<li className='nav-item dropdown' onMouseMove={dropdownHover} onMouseLeave={dropdownLeave}>
-							<span
-								className='nav-link dropdown-toggle'
-								role='button'
-								data-bs-toggle='dropdown'
-								aria-expanded='false'
-							>
-								Home
-							</span>
-							<ul className='dropdown-menu'>
+						<li className='nav-item dropdown'>
+							<Link href='/'>
+								<span className='nav-link dropdown-toggle' role='button'>
+									Home
+								</span>
+							</Link>
+
+							{/* <ul className='dropdown-menu'>
 								<li>
 									<Link href='/home-main'>
 										<a className='dropdown-item'>Home Main</a>
@@ -109,23 +107,17 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
 										<a className='dropdown-item'>Restaurant</a>
 									</Link>
 								</li>
-							</ul>
+							</ul> */}
 						</li>
-						<li className='nav-item dropdown' onMouseMove={dropdownHover} onMouseLeave={dropdownLeave}>
-							<span
-								className='nav-link dropdown-toggle'
-								role='button'
-								data-bs-toggle='dropdown'
-								aria-expanded='false'
-							>
-								Nosotros
-							</span>
-							<ul className='dropdown-menu'>
-								<li
-									className='dropdown-item'
-									onMouseMove={sideDropdownHover}
-									onMouseLeave={sideDropdownLeave}
-								>
+						<li className='nav-item dropdown'>
+							<Link href='/'>
+								<span className='nav-link dropdown-toggle' role='button'>
+									Nosotros
+								</span>
+							</Link>
+
+							{/* <ul className='dropdown-menu'>
+								<li className='dropdown-item' onMouseMove={sideDropdownHover} onMouseLeave={sideDropdownLeave}>
 									<span>
 										About <i className='fas fa-angle-right icon-arrow'></i>
 									</span>
@@ -147,11 +139,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
 										</li>
 									</ul>
 								</li>
-								<li
-									className='dropdown-item'
-									onMouseMove={sideDropdownHover}
-									onMouseLeave={sideDropdownLeave}
-								>
+								<li className='dropdown-item' onMouseMove={sideDropdownHover} onMouseLeave={sideDropdownLeave}>
 									<span>
 										Services <i className='fas fa-angle-right icon-arrow'></i>
 									</span>
@@ -173,22 +161,16 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
 										</li>
 									</ul>
 								</li>
-							</ul>
+							</ul> */}
 						</li>
-						<li
-							className='nav-item dropdown mega-menu'
-							onMouseMove={dropdownHover}
-							onMouseLeave={dropdownLeave}
-						>
-							<span
-								className='nav-link dropdown-toggle'
-								role='button'
-								data-bs-toggle='dropdown'
-								aria-expanded='false'
-							>
-								Servicios
-							</span>
-							<div className='dropdown-menu'>
+						<li className='nav-item dropdown mega-menu'>
+							<Link href='/'>
+								<span className='nav-link dropdown-toggle' role='button'>
+									Servicios
+								</span>
+							</Link>
+
+							{/* <div className='dropdown-menu'>
 								<div className='container'>
 									<div className='row'>
 										<div className='col-lg-4'>
@@ -274,18 +256,16 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</li>
-						<li className='nav-item dropdown' onMouseMove={dropdownHover} onMouseLeave={dropdownLeave}>
-							<span
-								className='nav-link dropdown-toggle'
-								role='button'
-								data-bs-toggle='dropdown'
-								aria-expanded='false'
-							>
-								Recursos
-							</span>
-							<ul className='dropdown-menu'>
+						<li className='nav-item dropdown'>
+							<Link href='/'>
+								<span className='nav-link dropdown-toggle' role='button'>
+									Recursos
+								</span>
+							</Link>
+
+							{/* <ul className='dropdown-menu'>
 								<li>
 									<Link href='/blog-grid-creative'>
 										<a className='dropdown-item'>Grid Creative</a>
@@ -311,12 +291,15 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
 										<a className='dropdown-item'>Single Post</a>
 									</Link>
 								</li>
-							</ul>
+							</ul> */}
 						</li>
-						<li className='nav-item dropdown' onMouseMove={dropdownHover} onMouseLeave={dropdownLeave}>
-							<a className='nav-link' href='#footer' role='button'>
-								Blog
-							</a>
+						<li className='nav-item dropdown'>
+							<Link href='/'>
+								<a className='nav-link' href='#footer' role='button'>
+									Blog
+								</a>
+							</Link>
+
 							{/* <ul className='dropdown-menu'>
 								<li>
 									<Link href='/blog-grid-creative'>
@@ -346,7 +329,7 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
 							</ul> */}
 						</li>
 						<li className='nav-item'>
-							<Link href='/contact-creative'>
+							<Link href='/'>
 								<a className='nav-link'>Contacto</a>
 							</Link>
 						</li>
@@ -354,10 +337,10 @@ const Navbar = ({ navbarRef, theme, logoTheme }) => {
 					<div className='social'>
 						<ul className='rest'>
 							<li>
-								<a href='#0'>
+								<a target='blank' href='http://www.instagram.com'>
 									<i className='fab fa-instagram'></i>
 								</a>
-								<a href='#0'>
+								<a target='blank' href='http://www.linkedin.com/'>
 									<i className='fab fa-linkedin'></i>
 								</a>
 							</li>
