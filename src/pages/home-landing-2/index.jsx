@@ -13,6 +13,7 @@ import About from "../../components/Main/About2";
 import Footer from "../../components/Footers/DigitalFooter";
 import { WelcomeAnimation } from "../../components/Common/WelcomeAnimation";
 import ProgressScroll from "../../components/Progress-Scroll";
+import removeSlashFromPagination from "../../common/removeSlashFromPagination";
 
 const HomeLanding = () => {
 	const [isLoading, setIsLoading] = useState(true);
@@ -52,6 +53,7 @@ const HomeLanding = () => {
 		}
 		return siteDisplay;
 	};
+
 	return (
 		<>
 			<WelcomeAnimation isLoading={isLoading} changeState={changeState} />
@@ -60,7 +62,7 @@ const HomeLanding = () => {
 					<StickyBar />
 					<FixedSearch />
 					<Header />
-					<Testimonials />
+					<Testimonials isLoading={isLoading} />
 					<Process />
 					<About />
 					<Footer footerClass='position-re pb-40' />

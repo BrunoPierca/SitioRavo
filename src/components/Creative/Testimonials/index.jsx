@@ -12,13 +12,12 @@ import "swiper/css/effect-fade";
 
 SwiperCore.use([Navigation, Pagination, EffectFade]);
 
-const Testimonials = () => {
+const Testimonials = ({ isLoading }) => {
 	const [load, setLoad] = useState(true);
 
 	const navigationPrevRef = useRef(null);
 	const navigationNextRef = useRef(null);
 	const paginationRef = useRef(null);
-
 	useEffect(() => {
 		setTimeout(() => setLoad(false));
 
@@ -26,7 +25,7 @@ const Testimonials = () => {
 			thumbParallaxUp();
 			removeSlashFromPagination();
 		});
-	}, []);
+	}, [isLoading]);
 
 	return (
 		<section className='testimonials pb-100'>
@@ -75,7 +74,6 @@ const Testimonials = () => {
 									}}
 									pagination={{
 										type: "fraction",
-										direction: "horizontal",
 										clickable: true,
 										el: paginationRef.current,
 									}}
@@ -126,7 +124,7 @@ const Testimonials = () => {
 										nextEl: navigationNextRef.current,
 									}}
 									pagination={{
-										type: "fraction",
+										type: "custom",
 										clickable: true,
 										el: paginationRef.current,
 									}}
@@ -177,11 +175,7 @@ const Testimonials = () => {
 						<div className='swiper-button-prev swiper-nav-ctrl prev-ctrl' ref={navigationPrevRef}>
 							<i className='fas fa-caret-down'></i>
 						</div>
-						<div
-							className='swiper-pagination'
-							style={{ transform: "rotate(-90deg)" }}
-							ref={paginationRef}
-						></div>
+						<div className='swiper-pagination' style={{ transform: "rotate(-90deg)" }} ref={paginationRef}></div>
 					</div>
 				</div>
 			</div>
