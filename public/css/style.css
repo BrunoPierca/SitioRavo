@@ -10839,4 +10839,9 @@ body.index-main .bg-gray {
   overflow: visible !important;
 }
 
+#wrapperDiv span img{
+  height: inherit !important;
+  min-height: 0px !important;
+}
+
 /* ====================== [ End Responsive ] ====================== */

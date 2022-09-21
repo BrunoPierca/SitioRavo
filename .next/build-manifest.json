@@ -25,20 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/home-landing-2": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/home-landing-2.js"
-    ],
     "/home-landing-2v1": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/home-landing-2v1.js"
     ],
-    "/home-landing-2v2": [
+    "/home-landing-2v3": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/home-landing-2v2.js"
+      "static/chunks/pages/home-landing-2v3.js"
     ]
   },
   "ampFirstPages": []
