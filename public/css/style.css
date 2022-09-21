@@ -10835,4 +10835,8 @@ body.index-main .bg-gray {
   }
 }
 
+#wrapperDiv span {
+  overflow: visible !important;
+}
+
 /* ====================== [ End Responsive ] ====================== */
