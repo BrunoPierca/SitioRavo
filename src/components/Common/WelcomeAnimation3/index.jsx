@@ -6,9 +6,9 @@ export const WelcomeAnimation = ({ changeState }) => {
 	}
 	const dissapear = async ({ target }) => {
 		await delay(300);
-		const containerDiv = target.parentElement.parentElement.parentElement;
+		const containerDiv = target.parentElement?.parentElement.parentElement;
 
-		if (containerDiv.classList.contains("animationContainer")) {
+		if (containerDiv?.classList.contains("animationContainer")) {
 			containerDiv.classList.add("animate__fadeOut");
 			await delay(1100);
 			containerDiv.remove();

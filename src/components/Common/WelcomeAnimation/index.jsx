@@ -5,9 +5,9 @@ export const WelcomeAnimation = ({ changeState }) => {
 		return new Promise((resolve) => setTimeout(resolve, time));
 	}
 	const dissapear = async ({ target }) => {
-		target.parentElement.classList.add("animate__fadeOut");
+		target.parentElement?.classList.add("animate__fadeOut");
 		await delay(1000);
-		target.parentElement.remove();
+		target.parentElement?.remove();
 		changeState();
 	};
 
